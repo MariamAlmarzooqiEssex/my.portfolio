@@ -1,0 +1,84 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Navigation */
+header {
+  background-color: #222;
+  padding: 1em 0;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0 1em;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #e0e0e0;
+  text-align: center;
+  padding: 4em 2em;
+}
+
+.hero h1 {
+  font-size: 2.5em;
+}
+
+.name {
+  color: #0057ff;
+}
+
+/* Section Styling */
+section {
+  padding: 2em;
+  max-width: 900px;
+  margin: auto;
+}
+
+h2 {
+  margin-bottom: 1em;
+  color: #222;
+}
+
+/* Project Boxes */
+.project {
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-radius: 6px;
+}
+
+/* Footer */
+footer {
+  background-color: #222;
+  color: #ccc;
+  text-align: center;
+  padding: 1em 0;
+  margin-top: 2em;
+}
